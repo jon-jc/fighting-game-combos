@@ -12,16 +12,3 @@ Welcome to the Fighting Game Combo Guide, a Next.js and React powered website de
 
 To get this project running on your local machine, follow these steps:
 
-### Prerequisites
-
-Ensure you have the following installed:
-- [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com/))
-
-### Setup
-
-Clone the repository and install the dependencies:
-
-```bash
-git clone https://github.com/yourusername/fighting-game-combo-guide.git
-cd fighting-game-combo-guide
-npm install
