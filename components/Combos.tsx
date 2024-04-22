@@ -1,10 +1,6 @@
-/**
- * v0 by Vercel.
- * @see https://v0.dev/t/Ju4S1rDfr2D
- * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
- */
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
+import Image from "next/image";
 
 export default function Component() {
   return (
@@ -37,7 +33,7 @@ export default function Component() {
       </header>
       <main className="grid gap-4 text-sm">
         <div className="flex items-center gap-4">
-          <img
+          <Image
             alt="Character"
             className="rounded-md"
             height="64"
@@ -80,7 +76,7 @@ export default function Component() {
   );
 }
 
-function OctagonIcon(props) {
+function OctagonIcon(props: any) {
   return (
     <svg
       {...props}
